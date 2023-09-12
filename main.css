@@ -1,0 +1,95 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%; 
+    height: 40px; 
+    display: flex;
+    color: #000000;
+    background-color: #47c076;
+    border-radius: 5px;
+}   
+h1{
+    height: 100%;
+    display: flex;
+    margin-left: 35%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.barra{
+    background-color: #47c076;
+    width: 100%; 
+    height: 40px; 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0;
+    width: 25%;
+    text-align: center;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+a:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cuerpo{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+}
+.acerca{
+    
+    width: 25%;
+    display: flex;
+    border-color: #222426;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: #47c076;
+
+}
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.texto{
+    
+    display: flex;
+    margin-left: 5px;
+    color: #F2F2F2;
+}
+.nombre{
+    text-decoration: none;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+.experiencia{
+    width: 100%;
+    margin: 5px;
+}
